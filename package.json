@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --env-file=.env --watch-path=./src ./src/index.js",
-	"start": "node ./src/app.js"
+	"start": "node ./src/index.js"
   },
   "keywords": [
     "robinson",
