@@ -1,0 +1,19 @@
+<%- include('header') -%>
+
+	<h1>Innskráning</h1>
+
+	<form class="form" method="post" action="/login" autocomplete="off">
+		<%- include('user') -%>
+
+			<% if (message) { %>
+				<p>
+					<%= message %>
+				</p>
+				<% } %>
+
+					<button class="button">Innskrá</button>
+	</form>
+
+	<a href="/">Til baka</a>
+
+	<%- include('footer') -%>

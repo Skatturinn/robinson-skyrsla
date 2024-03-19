@@ -1,0 +1,14 @@
+<%- include('header') -%>
+	<h1>
+		<%= locals.title ?? '' %>
+	</h1>
+
+	<% if (locals.loggedIn) { %>
+		<p>Innskráður notandi: <%= locals.username %> (<%= locals.admin ? 'admin' : 'notandi' %>)
+			<%- include('skyrsla') %>
+					<% } else { %>
+						<p>Þú ert ekki innskráður notandi.</p>
+						<% } %>
+
+
+							<%- include('footer') -%>

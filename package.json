@@ -1,0 +1,27 @@
+{
+  "name": "robinson-skyrsla",
+  "version": "1.0.0",
+  "description": "skyrlsa fyrir tolvst velbunad",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --watch-path=./src ./src/index.js"
+  },
+  "keywords": [
+    "robinson",
+    "skyrsla"
+  ],
+  "author": "Elias",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "url": "^0.11.3"
+  }
+}
