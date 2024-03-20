@@ -9,13 +9,35 @@ body {
 	margin: 0 auto;
 	width: 90vw;
 	max-width: 1080px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+header {
+	text-align: end;
+}
+nav ul {
+	list-style: none;
+}
+footer {
+	margin: auto 0 0 0;
+	text-align: end;
+	width: 100%;
+	align-self: flex-end;
 }
 
 main {
 	width: fit-content;
 	margin: 0 auto;
+	/* min-height: 80vh; */
 }
-
+.heading {
+	text-align: center;
+	min-width: 50vw;
+	max-width: 90vw;
+	width: 720px;
+}
 
 img {
 	max-width: 720px;
