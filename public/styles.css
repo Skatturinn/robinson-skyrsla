@@ -20,5 +20,9 @@ main {
 img {
 	max-width: 720px;
 	max-height: 720px;
+	object-fit: scale-down;
 	width: 100vw;
+	text-align: center;
+	justify-self: center;
+	align-self: center;
 }
