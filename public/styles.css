@@ -5,6 +5,10 @@
   box-sizing: inherit;
 }
 
+html {
+	font-size: larger;
+}
+
 body {
 	margin: 0 auto;
 	width: 90vw;
@@ -36,6 +40,8 @@ main {
 	min-width: 50vw;
 	max-width: 90vw;
 	width: 720px;
+	align-self: center;
+	margin: auto;
 }
 
 img {
