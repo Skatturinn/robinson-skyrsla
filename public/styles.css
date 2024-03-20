@@ -1,0 +1,25 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0 auto;
+	width: 20vw;
+}
+
+main {
+	width: fit-content;
+	margin: 0 auto;
+}
+h1 {
+	width: 1rem;
+	margin: 0 auto;
+}
+
+.container  iframe {
+	width: 100vw;
+	height: 100vh;
+}

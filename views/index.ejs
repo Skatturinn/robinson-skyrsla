@@ -1,8 +1,9 @@
 <%- include('header') -%>
+<hr>
 	<h1>
 		<%= locals.title ?? '' %>
 	</h1>
-
+<hr>
 	<% if (locals.loggedIn) { %>
 		<p>Innskráður notandi: <%= locals.username %> (<%= locals.admin ? 'admin' : 'notandi' %>)
 			<%- include('skyrsla') %>
