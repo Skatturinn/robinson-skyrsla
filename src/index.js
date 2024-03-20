@@ -128,7 +128,7 @@ app.get('/logout', (req, res) => {
 	req.logout((err) => handlerError(err, req, res, null));
 	res.redirect('/');
 });
-app.use(express.static(join(path, './public')));
+app.use(express.static(join(path, '../public')));
 app.use(handler404);
 app.use(handlerError);
 

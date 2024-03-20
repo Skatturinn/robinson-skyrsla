@@ -7,19 +7,18 @@
 
 body {
 	margin: 0 auto;
-	width: 20vw;
+	width: 90vw;
+	max-width: 1080px;
 }
 
 main {
 	width: fit-content;
 	margin: 0 auto;
 }
-h1 {
-	width: 1rem;
-	margin: 0 auto;
-}
 
-.container  iframe {
+
+img {
+	max-width: 720px;
+	max-height: 720px;
 	width: 100vw;
-	height: 100vh;
 }
